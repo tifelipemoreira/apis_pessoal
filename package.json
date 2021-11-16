@@ -1,5 +1,5 @@
 {
-  "name": "webcicopal",
+  "name": "apis-pessoal",
   "private": true,
   "scripts": {
     "dev": "next dev",
