@@ -1,6 +1,7 @@
 //const { Pool, Client } = require('pg')
 import { Pool } from 'pg';
 
+/*
 //Configurar as variaveis de ambiente na vercel e utilizar os secrets 
 const pool = new Pool({
     user: process.env.DB_USER,
@@ -10,4 +11,14 @@ const pool = new Pool({
     port: process.env.DB_PORT,
 })
 
+
+
+*/
+const pool = new Pool({
+    user: 'postgres',
+    host: 'db.nwgnpmwitfqxeenmrvdd.supabase.co',
+    database: 'postgres',
+    password: 'plmnko@3991',
+    port: 6543,
+})
 export default pool;
